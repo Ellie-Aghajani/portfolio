@@ -1,4 +1,3 @@
-// src/components/About.js
 import React from "react";
 import { Container, Paper, Typography, Grid } from "@mui/material";
 
