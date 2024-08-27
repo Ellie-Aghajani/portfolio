@@ -1,26 +1,40 @@
 import React from "react";
-import "./Projects.css";
+import { Container, Typography, Button, Box } from "@mui/material";
 
 function Projects() {
   return (
-    <section className="projects">
-      <h2>Projects</h2>
-      <div className="project">
-        <h3>Munchie Master</h3>
-        <p>
+    <Container sx={{ padding: 4 }}>
+      <Typography variant="h4" sx={{ mb: 2 }}>
+        Projects
+      </Typography>
+      <Box
+        sx={{
+          backgroundColor: "#fff",
+          padding: 3,
+          mb: 3,
+          boxShadow: 2,
+          borderRadius: 1,
+        }}
+      >
+        <Typography variant="h6">Munchie Master</Typography>
+        <Typography variant="body1">
           A single-page web application designed for toddler moms to find
           healthy and delicious recipes.
-        </p>
-        <a
+        </Typography>
+        <Button
+          component="a"
           href="https://github.com/Ellie-Aghajani/munchieMaster"
           target="_blank"
-          rel="noopener noreferrer"
+          sx={{
+            color: "primary.main",
+            textDecoration: "none",
+            "&:hover": { textDecoration: "underline" },
+          }}
         >
           View Project
-        </a>
-      </div>
-      {/* Add more projects as needed */}
-    </section>
+        </Button>
+      </Box>
+    </Container>
   );
 }
 

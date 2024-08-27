@@ -1,10 +1,24 @@
 import React from "react";
-import "./Footer.css";
+import { Container, Typography } from "@mui/material";
 
 function Footer() {
   return (
-    <footer className="footer">
-      <p>&copy; 2024 Ellie Aghajani. All rights reserved.</p>
+    <footer
+      style={{
+        backgroundColor: "#e9c46a",
+        color: "#fff",
+        textAlign: "center",
+        padding: "16px",
+        position: "fixed",
+        bottom: 0,
+        width: "100%",
+      }}
+    >
+      <Container>
+        <Typography variant="body2">
+          &copy; 2024 Ellie Aghajani. All rights reserved.
+        </Typography>
+      </Container>
     </footer>
   );
 }
