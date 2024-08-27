@@ -1,0 +1,32 @@
+/* src/styles/fonts.css */
+
+.montserrat-100 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+  }
+  
+  .montserrat-300 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+  }
+  
+  .montserrat-400 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+  }
+  
+  .montserrat-600 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+  }
+  
+  .montserrat-700 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+  }
+  
+  .montserrat-900 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+  }
+  

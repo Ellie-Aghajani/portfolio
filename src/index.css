@@ -1,5 +1,8 @@
-body {
+html, body {
+  background-color: #cad2c5; /* Replace with your desired color */
   margin: 0;
+  padding: 0;
+  height: 100%;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
