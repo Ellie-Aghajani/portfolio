@@ -35,7 +35,18 @@ function Header() {
           }}
         >
           <Typography variant="h6" sx={{ color: "#003049" }}>
-            Ellie Aghajani
+            <Button
+              component={Link}
+              to="/about"
+              sx={{
+                fontWeight: "bold",
+                color: "#003049",
+                fontSize: "1.5rem",
+                mx: 1,
+              }}
+            >
+              Ellie Aghajani
+            </Button>
           </Typography>
 
           <Box sx={{ display: { xs: "none", md: "block" } }}>

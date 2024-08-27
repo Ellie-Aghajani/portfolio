@@ -107,7 +107,18 @@ function Contact() {
             required
           />
           <Button
-            sx={{ backgroundColor: "#003049", color: "white" }}
+            sx={{
+              fontSize: "1rem",
+              backgroundColor: "#fcbf49",
+              color: "#003049",
+              textDecoration: "none",
+              "&:hover": {
+                textDecoration: "none",
+                color: "#ffd60a",
+                backgroundColor: "#003049",
+              },
+              mr: 1,
+            }}
             type="submit"
             variant="contained"
             color="secondary"

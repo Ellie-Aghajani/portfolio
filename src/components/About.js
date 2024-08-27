@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Typography, Container, Stack } from "@mui/material";
+import { Box, Typography, Container, Stack, Button } from "@mui/material";
 
 function About() {
   return (
@@ -15,10 +15,10 @@ function About() {
         About Me
       </Typography>
       <Stack
-        direction={{ xs: "column", sm: "row" }}
+        direction={{ xs: "column", sm: "row-reverse" }}
         spacing={2}
         alignItems="center"
-        sx={{ backgroundColor: "#f4f1de", padding: 2, borderRadius: 2 }}
+        sx={{ backgroundColor: "#d8e2dc", padding: 2, borderRadius: 2 }}
       >
         <Box
           component="img"
@@ -48,6 +48,54 @@ function About() {
           incorporate into all my interactions.{" "}
         </Typography>
       </Stack>
+      <Typography
+        variant="h4"
+        sx={{
+          color: "#003049",
+          textAlign: "center",
+          marginBottom: "16px",
+        }}
+      >
+        <Button
+          component="a"
+          href="/contact"
+          target="_blank"
+          sx={{
+            fontSize: "1rem",
+            backgroundColor: "#fcbf49",
+            color: "#003049",
+            textDecoration: "none",
+            "&:hover": {
+              textDecoration: "none",
+              color: "#ffd60a",
+              backgroundColor: "#003049",
+            },
+            mr: 1,
+          }}
+        >
+          Contact Me
+        </Button>
+
+        <Button
+          component="a"
+          href="https://resume.creddle.io/resume/gsecwddv3cq"
+          target="_blank"
+          sx={{
+            fontSize: "1rem",
+            textDecoration: "none",
+            backgroundColor: "#fcbf49",
+            color: "#003049",
+            "&:hover": {
+              color: "#ffd60a",
+              backgroundColor: "#003049",
+              textDecoration: "none",
+            },
+            mr: 1,
+          }}
+        >
+          Resume
+        </Button>
+      </Typography>
     </Container>
   );
 }

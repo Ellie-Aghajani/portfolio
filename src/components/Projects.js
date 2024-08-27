@@ -36,11 +36,15 @@ function Projects() {
           href=""
           target="_blank"
           sx={{
-            color: "#003049",
             fontSize: "0.5rem",
-            backgroundColor: "#caffbf",
+            backgroundColor: "#fcbf49",
+            color: "#003049",
             textDecoration: "none",
-            "&:hover": { textDecoration: "none", backgroundColor: "#ffd60a" },
+            "&:hover": {
+              textDecoration: "none",
+              color: "#ffd60a",
+              backgroundColor: "#003049",
+            },
             mr: 1,
           }}
         >
@@ -52,12 +56,16 @@ function Projects() {
           href="https://github.com/Ellie-Aghajani/munchieMaster"
           target="_blank"
           sx={{
-            color: "#003049",
             fontSize: "0.5rem",
-            backgroundColor: "#fdffb6",
+            backgroundColor: "#fcbf49",
+            color: "#003049",
             textDecoration: "none",
+            "&:hover": {
+              textDecoration: "none",
+              color: "#ffd60a",
+              backgroundColor: "#003049",
+            },
             mr: 1,
-            "&:hover": { textDecoration: "none", backgroundColor: "#ffd60a" },
           }}
         >
           GitHub Repo
@@ -89,12 +97,16 @@ function Projects() {
           href="https://gamepedia-wimt.onrender.com/"
           target="_blank"
           sx={{
-            mr: 1,
             fontSize: "0.5rem",
-            backgroundColor: "#caffbf",
+            backgroundColor: "#fcbf49",
             color: "#003049",
             textDecoration: "none",
-            "&:hover": { textDecoration: "none", backgroundColor: "#ffd60a" },
+            "&:hover": {
+              textDecoration: "none",
+              color: "#ffd60a",
+              backgroundColor: "#003049",
+            },
+            mr: 1,
           }}
         >
           Deployed Application
@@ -104,12 +116,16 @@ function Projects() {
           href="https://github.com/Ellie-Aghajani/gamepedia"
           target="_blank"
           sx={{
-            mr: 1,
-            color: "#003049",
             fontSize: "0.5rem",
-            backgroundColor: "#fdffb6",
+            backgroundColor: "#fcbf49",
+            color: "#003049",
             textDecoration: "none",
-            "&:hover": { textDecoration: "none", backgroundColor: "#ffd60a" },
+            "&:hover": {
+              textDecoration: "none",
+              color: "#ffd60a",
+              backgroundColor: "#003049",
+            },
+            mr: 1,
           }}
         >
           GitHub Repo
