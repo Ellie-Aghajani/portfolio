@@ -20,16 +20,6 @@ function About() {
         alignItems="center"
         sx={{ backgroundColor: "#d8e2dc", padding: 2, borderRadius: 2 }}
       >
-        <Box
-          component="img"
-          src="https://media.licdn.com/dms/image/v2/D5603AQGdLFTqxxcYCQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1724730498735?e=1730332800&v=beta&t=0kL9Ks86drtcPgWR_4B6U7zz074XYtsattYZtO7hF5U"
-          alt="Ellie Aghajani"
-          sx={{
-            width: "200px",
-            height: "200px",
-            borderRadius: "50%",
-          }}
-        />
         <Typography variant="body1" sx={{ textAlign: "justify" }}>
           {" "}
           I’m a Full Stack Web Developer transitioning from a background in
