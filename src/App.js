@@ -10,6 +10,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import theme from "./theme";
 import "./index.css";
+
 function App() {
   return (
     <ThemeProvider theme={theme}>
@@ -19,7 +20,7 @@ function App() {
           sx={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}
         >
           <Header />
-          <Box sx={{ flex: 1 }}>
+          <Box sx={{ flex: 1, backgroundColor: "#cad2c5" }}>
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
