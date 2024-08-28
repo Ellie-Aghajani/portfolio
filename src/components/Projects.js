@@ -94,7 +94,7 @@ function Projects() {
         <br />
         <Button
           component="a"
-          href="https://gamepedia-wimt.onrender.com/"
+          href="https://gamepedia-eight.vercel.app/"
           target="_blank"
           sx={{
             fontSize: "0.5rem",
