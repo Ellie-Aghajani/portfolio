@@ -12,6 +12,7 @@ import {
 import MenuIcon from "@mui/icons-material/Menu";
 import { Link } from "react-router-dom";
 import WavyDivider from "./WavyDivider";
+import "./Home";
 
 function Header() {
   const [anchorEl, setAnchorEl] = useState(null);
@@ -37,7 +38,7 @@ function Header() {
           <Typography variant="h6" sx={{ color: "#003049" }}>
             <Button
               component={Link}
-              to="/about"
+              to="/"
               sx={{
                 fontWeight: "bold",
                 color: "#003049",
