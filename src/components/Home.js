@@ -47,7 +47,7 @@ function Home() {
         >
           <Box
             component="img"
-            src="profileImage.jpeg"
+            src="/profileImage.jpeg"
             alt="Ellie Aghajani"
             sx={{
               width: "200px",
