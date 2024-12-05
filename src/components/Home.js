@@ -89,7 +89,7 @@ function Home() {
 
         <Button
           component="a"
-          href="https://resume.creddle.io/resume/gsecwddv3cq"
+          href="https://flowcv.com/resume/j87t0vsftt"
           target="_blank"
           sx={{
             fontSize: "1rem",
