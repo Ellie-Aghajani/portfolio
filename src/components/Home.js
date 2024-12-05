@@ -47,7 +47,7 @@ function Home() {
         >
           <Box
             component="img"
-            src="https://media.licdn.com/dms/image/v2/D5603AQGdLFTqxxcYCQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1724730498735?e=1730332800&v=beta&t=0kL9Ks86drtcPgWR_4B6U7zz074XYtsattYZtO7hF5U"
+            src="profileImage.jpeg"
             alt="Ellie Aghajani"
             sx={{
               width: "200px",
