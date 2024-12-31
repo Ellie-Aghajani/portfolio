@@ -100,7 +100,7 @@ function Home() {
             },
           }}
         >
-          My resume
+          See My Resume
         </Button>
       </Box>
 
