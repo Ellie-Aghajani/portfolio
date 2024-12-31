@@ -45,6 +45,7 @@ function Home() {
             sx={{
               color: "#003049",
               marginBottom: "16px",
+              fontSize: { xs: "1.5rem", sm: "2rem", md: "2.5rem" },
             }}
           >
             I am
@@ -56,6 +57,7 @@ function Home() {
             sx={{
               color: "#003049",
               marginBottom: "16px",
+              fontSize: { xs: "1rem", sm: "1.2rem", md: "1.5rem" },
             }}
           >
             <br />
