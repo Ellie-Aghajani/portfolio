@@ -86,6 +86,25 @@ function Home() {
         >
           Read more about me ...
         </Button>
+        <Button
+          component="a"
+          href="/projects"
+          target="_blank"
+          sx={{
+            fontSize: "1rem",
+            textDecoration: "none",
+            backgroundColor: "#fcbf49",
+            color: "#003049",
+            "&:hover": {
+              color: "#ffd60a",
+              backgroundColor: "#003049",
+              textDecoration: "none",
+            },
+            mr: 1,
+          }}
+        >
+          My Projects
+        </Button>
 
         <Button
           component="a"
@@ -104,7 +123,7 @@ function Home() {
             mr: 1,
           }}
         >
-          See my resume
+          My resume
         </Button>
       </Typography>
     </Container>
