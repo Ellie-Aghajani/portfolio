@@ -7,13 +7,17 @@ import Contact from "./Contact";
 function Home() {
   return (
     <Container sx={{ backgroundColor: "#cad2c5", padding: 2 }}>
-      <Grid
-        item
-        xs={12}
-        sm={12}
-        md={6}
-        sx={{ display: "flex", justifyContent: "flex-end" }}
+      <Box
+        sx={{
+          display: "flex",
+          flexDirection: { xs: "column", md: "row" },
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 4,
+          marginBottom: 4,
+        }}
       >
+        {/* Profile Image */}
         <Box
           component="img"
           src="/profileImage.jpeg"
@@ -22,24 +26,10 @@ function Home() {
             width: "200px",
             height: "200px",
             borderRadius: "50%",
-            // Optional margin to adjust position
-            marginRight: { md: 4 },
           }}
         />
-      </Grid>
-      <Grid
-        container
-        spacing={2}
-        alignItems="center"
-        sx={{ padding: 2, borderRadius: 2 }}
-      >
-        <Grid
-          item
-          xs={12}
-          sm={12}
-          md={6}
-          sx={{ textAlign: { xs: "center", md: "left" } }}
-        >
+        {/* Introduction Text */}
+        <Box sx={{ textAlign: { xs: "center", md: "left" } }}>
           <Typography
             variant="h4"
             sx={{
@@ -60,21 +50,22 @@ function Home() {
               fontSize: { xs: "1rem", sm: "1.2rem", md: "1.5rem" },
             }}
           >
-            <br />
             I'm Ellie Aghajani, a Full-Stack Web Developer based in Vancouver,
             B.C. <br />I have a background in Education, and coding has become
             both my passion and my professional focus. <br />I love building web
             applications and enjoy the creative process of turning ideas into
             functional, user-friendly solutions.
           </Typography>
-        </Grid>
-      </Grid>
-      <Typography
-        variant="h4"
+        </Box>
+      </Box>
+
+      <Box
         sx={{
-          color: "#003049",
-          textAlign: "center",
-          marginBottom: "16px",
+          display: "flex",
+          justifyContent: "center",
+          gap: 2,
+          flexWrap: "wrap",
+          marginBottom: 4,
         }}
       >
         <Button
@@ -82,7 +73,7 @@ function Home() {
           href="/about"
           target="_blank"
           sx={{
-            fontSize: "1rem",
+            fontSize: { xs: "0.8rem", sm: "1rem", md: "1.2rem" },
             backgroundColor: "#fcbf49",
             color: "#003049",
             textDecoration: "none",
@@ -91,7 +82,6 @@ function Home() {
               color: "#ffd60a",
               backgroundColor: "#003049",
             },
-            mr: 1,
           }}
         >
           Read more about me ...
@@ -100,7 +90,7 @@ function Home() {
           component="a"
           href="/projects"
           sx={{
-            fontSize: "1rem",
+            fontSize: { xs: "0.8rem", sm: "1rem", md: "1.2rem" },
             textDecoration: "none",
             backgroundColor: "#fcbf49",
             color: "#003049",
@@ -109,17 +99,15 @@ function Home() {
               backgroundColor: "#003049",
               textDecoration: "none",
             },
-            mr: 1,
           }}
         >
           My Projects
         </Button>
-
         <Button
           component="a"
           href="https://flowcv.com/resume/j87t0vsftt"
           sx={{
-            fontSize: "1rem",
+            fontSize: { xs: "0.8rem", sm: "1rem", md: "1.2rem" },
             textDecoration: "none",
             backgroundColor: "#fcbf49",
             color: "#003049",
@@ -128,12 +116,12 @@ function Home() {
               backgroundColor: "#003049",
               textDecoration: "none",
             },
-            mr: 1,
           }}
         >
           My resume
         </Button>
-      </Typography>
+      </Box>
+
       {/* About Section */}
       <Box sx={{ marginY: 4 }}>
         <About />
