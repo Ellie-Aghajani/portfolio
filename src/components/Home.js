@@ -1,5 +1,8 @@
 import React from "react";
 import { Box, Typography, Container, Grid, Button } from "@mui/material";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 
 function Home() {
   return (
@@ -125,6 +128,10 @@ function Home() {
         >
           My resume
         </Button>
+
+        <About />
+        <Projects />
+        <Contact />
       </Typography>
     </Container>
   );
