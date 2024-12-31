@@ -40,10 +40,10 @@ function Home() {
           >
             <br />
             I'm Ellie Aghajani, a Full-Stack Web Developer based in Vancouver,
-            B.C. I have a background in Education, and coding has become both my
-            passion and my professional focus. I love building web applications
-            and enjoy the creative process of turning ideas into functional,
-            user-friendly solutions.
+            B.C. <br />I have a background in Education, and coding has become
+            both my passion and my professional focus. <br />I love building web
+            applications and enjoy the creative process of turning ideas into
+            functional, user-friendly solutions.
           </Typography>
         </Grid>
         <Grid
