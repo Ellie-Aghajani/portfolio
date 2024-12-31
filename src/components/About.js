@@ -25,12 +25,12 @@ function About() {
           Becoming a software engineer has been my dream ever since high school.
           I chose math as my focus back then, as the first step toward my future
           in tech. But life had other plans, and I found myself on a completely
-          different path—as a teacher. <br />
+          different path—as a teacher. <br /> <br />
           Fast forward to when I moved to Canada, everything changed. I saw this
           as my chance to finally chase the dream I’d been holding onto for so
           long. The first big step? Enrolling in the Lighthouse Labs Web
           Development Bootcamp, where I rediscovered my passion for building and
-          creating. <br />
+          creating. <br /> <br />
           Now, I’m more excited than ever about my career in software
           engineering. I’m always learning, growing, and pushing myself to be
           better each day. This isn’t just a career for me—it’s the fulfillment
