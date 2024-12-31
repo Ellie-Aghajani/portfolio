@@ -1,8 +1,8 @@
 import React from "react";
 import { Box, Typography, Container, Grid, Button } from "@mui/material";
-import About from "./components/About";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
+import About from "./About";
+import Projects from "./Projects";
+import Contact from "./Contact";
 
 function Home() {
   return (
