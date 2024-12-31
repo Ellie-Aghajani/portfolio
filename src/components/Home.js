@@ -1,6 +1,5 @@
 import React from "react";
 import { Box, Typography, Container, Grid, Button } from "@mui/material";
-import { GitHub, LinkedIn, Email, Description } from "@mui/icons-material";
 import About from "./About";
 import Projects from "./Projects";
 import Contact from "./Contact";
@@ -69,38 +68,40 @@ function Home() {
           marginBottom: 4,
         }}
       >
-        <Box sx={{ textAlign: "center", mb: 2 }}>
-          <IconButton
-            href="https://github.com/Ellie-Aghajani"
-            target="_blank"
-            rel="noopener noreferrer"
-            sx={{ color: "white" }}
-          >
-            <GitHub fontSize="large" />
-          </IconButton>
-          <IconButton
-            href="https://www.linkedin.com/in/ellie-aghajani/"
-            target="_blank"
-            rel="noopener noreferrer"
-            sx={{ color: "white" }}
-          >
-            <LinkedIn fontSize="large" />
-          </IconButton>
-          <IconButton
-            href="mailto:aghajaniellie@gmail.com"
-            sx={{ color: "white" }}
-          >
-            <Email fontSize="large" />
-          </IconButton>
-          <IconButton
-            href="https://flowcv.com/resume/j87t0vsftt"
-            target="_blank"
-            rel="noopener noreferrer"
-            sx={{ color: "white" }}
-          >
-            <Description fontSize="large" />
-          </IconButton>
-        </Box>
+        <Button
+          component="a"
+          href="/projects"
+          sx={{
+            fontSize: { xs: "0.8rem", sm: "1rem", md: "1.2rem" },
+            textDecoration: "none",
+            backgroundColor: "#fcbf49",
+            color: "#003049",
+            "&:hover": {
+              color: "#ffd60a",
+              backgroundColor: "#003049",
+              textDecoration: "none",
+            },
+          }}
+        >
+          My Projects
+        </Button>
+        <Button
+          component="a"
+          href="https://flowcv.com/resume/j87t0vsftt"
+          sx={{
+            fontSize: { xs: "0.8rem", sm: "1rem", md: "1.2rem" },
+            textDecoration: "none",
+            backgroundColor: "#fcbf49",
+            color: "#003049",
+            "&:hover": {
+              color: "#ffd60a",
+              backgroundColor: "#003049",
+              textDecoration: "none",
+            },
+          }}
+        >
+          My resume
+        </Button>
       </Box>
 
       {/* About Section */}
