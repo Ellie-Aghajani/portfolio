@@ -97,7 +97,6 @@ function Home() {
         <Button
           component="a"
           href="/projects"
-          target="_blank"
           sx={{
             fontSize: "1rem",
             textDecoration: "none",
@@ -117,7 +116,6 @@ function Home() {
         <Button
           component="a"
           href="https://flowcv.com/resume/j87t0vsftt"
-          target="_blank"
           sx={{
             fontSize: "1rem",
             textDecoration: "none",
@@ -136,34 +134,16 @@ function Home() {
       </Typography>
       {/* About Section */}
       <Box sx={{ marginY: 4 }}>
-        <Typography
-          variant="h4"
-          sx={{ color: "#003049", textAlign: "center", marginBottom: 2 }}
-        >
-          About Me
-        </Typography>
         <About />
       </Box>
 
       {/* Projects Section */}
       <Box sx={{ marginY: 4 }}>
-        <Typography
-          variant="h4"
-          sx={{ color: "#003049", textAlign: "center", marginBottom: 2 }}
-        >
-          My Projects
-        </Typography>
         <Projects />
       </Box>
 
       {/* Contact Section */}
       <Box sx={{ marginY: 4 }}>
-        <Typography
-          variant="h4"
-          sx={{ color: "#003049", textAlign: "center", marginBottom: 2 }}
-        >
-          Contact Me
-        </Typography>
         <Contact />
       </Box>
     </Container>
