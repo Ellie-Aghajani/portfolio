@@ -68,6 +68,7 @@ function About() {
         <Button
           component="a"
           href="https://resume.creddle.io/resume/gsecwddv3cq"
+          target="_blank"
           sx={{
             fontSize: "1rem",
             textDecoration: "none",
