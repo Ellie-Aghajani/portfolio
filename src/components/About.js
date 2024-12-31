@@ -18,7 +18,7 @@ function About() {
         direction={{ xs: "column", sm: "row-reverse" }}
         spacing={2}
         alignItems="center"
-        sx={{ backgroundColor: "#d8e2dc", padding: 2, borderRadius: 2 }}
+        sx={{ padding: 2, borderRadius: 2 }}
       >
         <Typography variant="body1" sx={{ textAlign: "justify" }}>
           {" "}
