@@ -49,7 +49,6 @@ function About() {
         <Button
           component="a"
           href="/contact"
-          target="_blank"
           sx={{
             fontSize: "1rem",
             backgroundColor: "#fcbf49",
@@ -69,7 +68,6 @@ function About() {
         <Button
           component="a"
           href="https://resume.creddle.io/resume/gsecwddv3cq"
-          target="_blank"
           sx={{
             fontSize: "1rem",
             textDecoration: "none",
