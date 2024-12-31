@@ -22,20 +22,19 @@ function About() {
       >
         <Typography variant="body1" sx={{ textAlign: "justify" }}>
           {" "}
-          I’m a Full Stack Web Developer transitioning from a background in
-          education. I’m proficient in JavaScript, Node.js, Express, React.js,
-          and TypeScript, with practical experience in building and deploying
-          web applications. I completed the Lighthouse Labs web development
-          bootcamp and earned a diploma. <br /> <br /> I have a strong desire to
-          create software and online experiences that are both visually
-          appealing and intuitive for users.
-          <br /> <br /> One of the things I love about software development is
-          that it’s a never-ending learning journey, and I'm always looking for
-          ways to expand my skills and knowledge. I'm always curious to learn
-          more! <br />
-          <br />
-          Teamwork, empathy, and kindness are values I prioritize and
-          incorporate into all my interactions.{" "}
+          Becoming a software engineer has been my dream ever since high school.
+          I chose math as my focus back then, as the first step toward my future
+          in tech. But life had other plans, and I found myself on a completely
+          different path—as a teacher. <br />
+          Fast forward to when I moved to Canada, everything changed. I saw this
+          as my chance to finally chase the dream I’d been holding onto for so
+          long. The first big step? Enrolling in the Lighthouse Labs Web
+          Development Bootcamp, where I rediscovered my passion for building and
+          creating. <br />
+          Now, I’m more excited than ever about my career in software
+          engineering. I’m always learning, growing, and pushing myself to be
+          better each day. This isn’t just a career for me—it’s the fulfillment
+          of a dream I never gave up on.{" "}
         </Typography>
       </Stack>
       <Typography

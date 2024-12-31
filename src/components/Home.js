@@ -50,11 +50,11 @@ function Home() {
               fontSize: { xs: "1rem", sm: "1.2rem", md: "1.5rem" },
             }}
           >
-            A Full-Stack Web Developer based in Vancouver, B.C. <br />I have a
-            background in Education, and coding has become both my passion and
-            my professional focus. <br />I love building web applications and
-            enjoy the creative process of turning ideas into functional,
-            user-friendly solutions.
+            A Full-Stack Web Developer based in Vancouver, B.C. <br />
+            Transitioning from a background in education, coding has become both
+            my passion and my professional focus. <br />I love building web
+            applications and enjoy the creative process of turning ideas into
+            functional, user-friendly solutions.
           </Typography>
         </Box>
       </Box>
