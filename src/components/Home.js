@@ -8,6 +8,26 @@ function Home() {
   return (
     <Container sx={{ backgroundColor: "#cad2c5", padding: 2 }}>
       <Grid
+        item
+        xs={12}
+        sm={12}
+        md={6}
+        sx={{ display: "flex", justifyContent: "flex-end" }}
+      >
+        <Box
+          component="img"
+          src="/profileImage.jpeg"
+          alt="Ellie Aghajani"
+          sx={{
+            width: "200px",
+            height: "200px",
+            borderRadius: "50%",
+            // Optional margin to adjust position
+            marginRight: { md: 4 },
+          }}
+        />
+      </Grid>
+      <Grid
         container
         spacing={2}
         alignItems="center"
@@ -45,26 +65,6 @@ function Home() {
             applications and enjoy the creative process of turning ideas into
             functional, user-friendly solutions.
           </Typography>
-        </Grid>
-        <Grid
-          item
-          xs={12}
-          sm={12}
-          md={6}
-          sx={{ display: "flex", justifyContent: "flex-end" }}
-        >
-          <Box
-            component="img"
-            src="/profileImage.jpeg"
-            alt="Ellie Aghajani"
-            sx={{
-              width: "200px",
-              height: "200px",
-              borderRadius: "50%",
-              // Optional margin to adjust position
-              marginRight: { md: 4 },
-            }}
-          />
         </Grid>
       </Grid>
       <Typography
