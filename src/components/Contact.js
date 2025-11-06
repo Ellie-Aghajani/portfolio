@@ -52,7 +52,7 @@ function Contact() {
         borderRadius: 1,
       }}
     >
-      <Typography variant="h4" sx={{ mb: 2, textAlign: "center" }}>
+      <Typography variant="h4" sx={{ mb: 2, textAlign: "center", color: "#003049", fontWeight: "bold" }}>
         Contact Me
         <br />
       </Typography>

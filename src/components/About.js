@@ -10,6 +10,7 @@ function About() {
           color: "#003049",
           textAlign: "center",
           marginBottom: "16px",
+          fontWeight: "bold",
         }}
       >
         About Me
@@ -20,7 +21,7 @@ function About() {
         alignItems="center"
         sx={{ padding: 2, borderRadius: 2 }}
       >
-        <Typography variant="body1" sx={{ textAlign: "justify" }}>
+        <Typography variant="h6" sx={{ textAlign: "justify" , color: "#003049"}}>
           {" "}
           Becoming a software engineer has been my dream ever since high school.
           I chose math as my focus back then, as the first step toward my future
@@ -37,7 +38,7 @@ function About() {
           of a dream I never gave up on.{" "}
         </Typography>
       </Stack>
-      <Typography
+      {/* <Typography
         variant="h4"
         sx={{
           color: "#003049",
@@ -83,7 +84,7 @@ function About() {
         >
           Resume
         </Button>
-      </Typography>
+      </Typography> */}
     </Container>
   );
 }
