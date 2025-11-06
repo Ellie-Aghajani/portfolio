@@ -47,12 +47,20 @@ function Contact() {
     <Container
       sx={{
         padding: 4,
-        backgroundColor: "#cad2c5",
+        backgroundColor: "#003049",
         // boxShadow: 1,
         borderRadius: 1,
       }}
     >
-      <Typography variant="h4" sx={{ mb: 2, textAlign: "center", color: "#003049", fontWeight: "bold" }}>
+      <Typography
+        variant="h4"
+        sx={{
+          mb: 2,
+          textAlign: "center",
+          color: "#FCBF49",
+          fontWeight: "bold",
+        }}
+      >
         Contact Me
         <br />
       </Typography>
@@ -62,7 +70,7 @@ function Contact() {
           mb: 1,
           textAlign: "center",
           fontSize: "1.5rem",
-          color: "#003049",
+          color: "#CAD2C5",
         }}
       >
         <br />I am always happy to connect!
@@ -70,7 +78,9 @@ function Contact() {
         <br />
       </Typography>
       <form onSubmit={handleSubmit}>
-        <Box sx={{ display: "flex", flexDirection: "column", gap: 2 }}>
+        <Box
+          sx={{ display: "flex", flexDirection: "column", gap: 2, padding: 3 }}
+        >
           <TextField
             label="Name"
             name="name"
@@ -78,6 +88,28 @@ function Contact() {
             value={formData.name}
             onChange={handleChange}
             required
+            sx={{
+              "& .MuiOutlinedInput-root": {
+                "& fieldset": {
+                  borderColor: "#FCBF49",
+                },
+                "&:hover fieldset": {
+                  borderColor: "#FCBF49",
+                },
+                "&.Mui-focused fieldset": {
+                  borderColor: "#FCBF49",
+                },
+                color: "#FCBF49",
+              },
+              "& .MuiInputLabel-root": {
+                color: "#FCBF49",
+              },
+              "& .MuiInputLabel-root.Mui-focused": {
+                color: "#FCBF49",
+              },
+              input: { color: "#FCBF49" },
+              textarea: { color: "#FCBF49" },
+            }}
           />
           <TextField
             label="Email"
@@ -87,6 +119,28 @@ function Contact() {
             value={formData.email}
             onChange={handleChange}
             required
+            sx={{
+              "& .MuiOutlinedInput-root": {
+                "& fieldset": {
+                  borderColor: "#FCBF49",
+                },
+                "&:hover fieldset": {
+                  borderColor: "#FCBF49",
+                },
+                "&.Mui-focused fieldset": {
+                  borderColor: "#FCBF49",
+                },
+                color: "#FCBF49",
+              },
+              "& .MuiInputLabel-root": {
+                color: "#FCBF49",
+              },
+              "& .MuiInputLabel-root.Mui-focused": {
+                color: "#FCBF49",
+              },
+              input: { color: "#FCBF49" },
+              textarea: { color: "#FCBF49" },
+            }}
           />
           <TextField
             label="Subject"
@@ -95,6 +149,28 @@ function Contact() {
             value={formData.subject}
             onChange={handleChange}
             required
+            sx={{
+              "& .MuiOutlinedInput-root": {
+                "& fieldset": {
+                  borderColor: "#FCBF49",
+                },
+                "&:hover fieldset": {
+                  borderColor: "#FCBF49",
+                },
+                "&.Mui-focused fieldset": {
+                  borderColor: "#FCBF49",
+                },
+                color: "#FCBF49",
+              },
+              "& .MuiInputLabel-root": {
+                color: "#FCBF49",
+              },
+              "& .MuiInputLabel-root.Mui-focused": {
+                color: "#FCBF49",
+              },
+              input: { color: "#FCBF49" },
+              textarea: { color: "#FCBF49" },
+            }}
           />
           <TextField
             label="Message"
@@ -105,6 +181,28 @@ function Contact() {
             value={formData.message}
             onChange={handleChange}
             required
+            sx={{
+              "& .MuiOutlinedInput-root": {
+                "& fieldset": {
+                  borderColor: "#FCBF49",
+                },
+                "&:hover fieldset": {
+                  borderColor: "#FCBF49",
+                },
+                "&.Mui-focused fieldset": {
+                  borderColor: "#FCBF49",
+                },
+                color: "#FCBF49",
+              },
+              "& .MuiInputLabel-root": {
+                color: "#FCBF49",
+              },
+              "& .MuiInputLabel-root.Mui-focused": {
+                color: "#FCBF49",
+              },
+              input: { color: "#FCBF49" },
+              textarea: { color: "#FCBF49" },
+            }}
           />
           <Button
             sx={{

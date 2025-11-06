@@ -3,11 +3,11 @@ import { Box, Typography, Container, Stack, Button } from "@mui/material";
 
 function About() {
   return (
-    <Container sx={{ backgroundColor: "#cad2c5", padding: 2 }}>
+    <Container sx={{ backgroundColor: " #003049", padding: 2 }}>
       <Typography
         variant="h4"
         sx={{
-          color: "#003049",
+          color: " #FCBF49",
           textAlign: "center",
           marginBottom: "16px",
           fontWeight: "bold",
@@ -21,7 +21,7 @@ function About() {
         alignItems="center"
         sx={{ padding: 2, borderRadius: 2 }}
       >
-        <Typography variant="h6" sx={{ textAlign: "justify" , color: "#003049"}}>
+        <Typography variant="h6" sx={{ textAlign: "justify" , color: "#cad2c5"}}>
           {" "}
           Becoming a software engineer has been my dream ever since high school.
           I chose math as my focus back then, as the first step toward my future

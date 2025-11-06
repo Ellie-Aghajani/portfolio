@@ -1,25 +1,49 @@
-// src/theme.js
 import { createTheme } from "@mui/material/styles";
+
+const colors = {
+  navy: "#003049",
+  gold: "#fcbf49",
+  cream: "#cad2c5",
+  darkGold: "#ffd60a",
+  lightText: "#f4f1de",
+};
 
 const theme = createTheme({
   palette: {
     primary: {
-      main: "#1976d2", // Customize this to your preferred primary color
+      main: colors.navy,
+      contrastText: colors.lightText,
     },
     secondary: {
-      main: "#f50057", // Customize this to your preferred secondary color
+      main: colors.gold,
+      contrastText: colors.navy,
+    },
+    background: {
+      default: colors.cream,
+      paper: "#ffffff",
+    },
+    text: {
+      primary: colors.navy,
+      secondary: colors.cream,
     },
   },
+
   typography: {
     fontFamily: "Montserrat, Arial, sans-serif",
     h1: {
       fontFamily: "Montserrat, Arial, sans-serif",
-      fontWeight: 700, // Example weight for headers
+      fontWeight: 700,
+      color: colors.navy,
     },
     body1: {
       fontFamily: "Montserrat, Arial, sans-serif",
-      fontWeight: 400, // Example weight for body text
+      fontWeight: 400,
+      color: colors.navy,
     },
+  },
+
+  custom: {
+    colors,
   },
 });
 

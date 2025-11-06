@@ -8,7 +8,7 @@ import Contact from "./Contact";
 
 function Home() {
   return (
-    <Container sx={{ backgroundColor: "#cad2c5", padding: 2 }}>
+    <Container sx={{ backgroundColor: "#003049", padding: 2 }}>
       <Box
         sx={{
           display: "flex",
@@ -38,7 +38,7 @@ function Home() {
           <Typography
             variant="h1"
             sx={{
-              color: "#003049",
+              color: "#FCBF49",
               marginBottom: "16px",
               fontSize: { xs: "1.5rem", sm: "2rem", md: "2.5rem" },
               fontWeight: "bold",
@@ -49,7 +49,7 @@ function Home() {
           <Typography
             variant="h1"
             sx={{
-              color: "#003049",
+              color: "#cad2c5",
               marginBottom: "16px",
               fontSize: { xs: "0.9rem", sm: "1.3rem", md: "1.5rem" },
               // fontWeight: "bold",
@@ -64,7 +64,7 @@ function Home() {
               className="icon-link p-2 rounded-lg border border-[#B5835A]/40 hover:border-amber-300/80 hover:scale-105 transition"
               style={{ marginLeft: 8, marginRight: 8 }}
             >
-              <MdEmail className="w-5 h-5 icon" style={{ color: "#003049" }} />
+              <MdEmail className="w-5 h-5 icon" style={{ color: "#cad2c5" }} />
             </a>
             <a
               href="https://github.com/Ellie-Aghajani"
@@ -74,7 +74,7 @@ function Home() {
               className="icon-link p-2 rounded-lg border border-[#B5835A]/40 hover:border-amber-300/80 hover:scale-105 transition"
               style={{ marginLeft: 8, marginRight: 8 }}
             >
-              <FaGithub className="w-5 h-5 icon" style={{ color: "#003049" }} />
+              <FaGithub className="w-5 h-5 icon" style={{ color: "#cad2c5" }} />
             </a>
             <a
               href="https://www.linkedin.com/in/ellie-aghajani/"
@@ -86,7 +86,7 @@ function Home() {
             >
               <FaLinkedin
                 className="w-5 h-5 icon"
-                style={{ color: "#003049" }}
+                style={{ color: "#cad2c5" }}
               />
             </a>
             <a
@@ -99,14 +99,14 @@ function Home() {
             >
               <FaFileAlt
                 className="w-5 h-5 icon"
-                style={{ color: "#003049" }}
+                style={{ color: "#cad2c5" }}
               />
             </a>
           </Box>
           <Typography
             variant="h5"
             sx={{
-              color: "#003049",
+              color: "#cad2c5",
               marginBottom: "16px",
               marginTop: "16px",
               textAlign: "justify",

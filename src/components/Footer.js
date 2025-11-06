@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, Typography, Container, IconButton } from "@mui/material";
 import { GitHub, LinkedIn } from "@mui/icons-material";
-
+import WavyDividerFooter from "./WavyDividerFooter";
 function Footer() {
   return (
     <Box
@@ -38,6 +38,7 @@ function Footer() {
           &copy; {new Date().getFullYear()} Ellie Aghajani. All rights reserved.
         </Typography>
       </Container>
+      <WavyDividerFooter />
     </Box>
   );
 }

@@ -20,7 +20,7 @@ function App() {
           sx={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}
         >
           <Header />
-          <Box sx={{ flex: 1, backgroundColor: "#cad2c5" }}>
+          <Box sx={{ flex: 1, backgroundColor: "#003049" }}>
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
