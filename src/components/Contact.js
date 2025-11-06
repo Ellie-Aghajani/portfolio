@@ -48,7 +48,7 @@ function Contact() {
       sx={{
         padding: 4,
         backgroundColor: "#cad2c5",
-        boxShadow: 1,
+        // boxShadow: 1,
         borderRadius: 1,
       }}
     >
