@@ -55,7 +55,7 @@ function Home() {
               // fontWeight: "bold",
             }}
           >
-            Software Developer • Vancouver, B.C.{" "}
+            Full-Stack Software Engineer • Vancouver, B.C.{" "}
           </Typography>
           <Box className="mt-8 mb-8 flex items-center justify-center gap-4 text-amber-300">
             <a
@@ -113,60 +113,57 @@ function Home() {
               fontSize: { xs: "1rem", sm: "1.2rem", md: "1.5rem" },
             }}
           >
-            I'm Ellie Aghajani, a Software Developer based in Vancouver, B.C. I
-            have a degree in education, and coding has become both my passion
-            and my professional career focus. I love building web applications
-            and enjoy the creative process of turning ideas into functional,
-            user-friendly solutions.
+            I build web applications end to end, from React and TypeScript
+            interfaces to Node.js and .NET APIs, SQL and NoSQL databases, and
+            AWS deployments. I enjoy turning an idea into something reliable,
+            well-structured, and easy for people to use.
           </Typography>
-                <Box
-        sx={{
-          display: "flex",
-          justifyContent: "left",
-          gap: 2,
-          flexWrap: "wrap",
-          marginBottom: 6,
-        }}
-      >
-        <Button
-          component="a"
-          href="/projects"
-          sx={{
-            fontSize: { xs: "0.8rem", sm: "1rem", md: "1.2rem" },
-            textDecoration: "none",
-            backgroundColor: "#fcbf49",
-            color: "#003049",
-            "&:hover": {
-              color: "#ffd60a",
-              backgroundColor: "#003049",
-              textDecoration: "none",
-            },
-          }}
-        >
-          My Projects
-        </Button>
-        <Button
-          component="a"
-          href="https://flowcv.com/resume/j87t0vsftt"
-          sx={{
-            fontSize: { xs: "0.8rem", sm: "1rem", md: "1.2rem" },
-            textDecoration: "none",
-            backgroundColor: "#fcbf49",
-            color: "#003049",
-            "&:hover": {
-              color: "#ffd60a",
-              backgroundColor: "#003049",
-              textDecoration: "none",
-            },
-          }}
-        >
-          See My Resume
-        </Button>
-      </Box>
+          <Box
+            sx={{
+              display: "flex",
+              justifyContent: "left",
+              gap: 2,
+              flexWrap: "wrap",
+              marginBottom: 6,
+            }}
+          >
+            <Button
+              component="a"
+              href="/projects"
+              sx={{
+                fontSize: { xs: "0.8rem", sm: "1rem", md: "1.2rem" },
+                textDecoration: "none",
+                backgroundColor: "#fcbf49",
+                color: "#003049",
+                "&:hover": {
+                  color: "#ffd60a",
+                  backgroundColor: "#003049",
+                  textDecoration: "none",
+                },
+              }}
+            >
+              My Projects
+            </Button>
+            <Button
+              component="a"
+              href="https://flowcv.com/resume/j87t0vsftt"
+              sx={{
+                fontSize: { xs: "0.8rem", sm: "1rem", md: "1.2rem" },
+                textDecoration: "none",
+                backgroundColor: "#fcbf49",
+                color: "#003049",
+                "&:hover": {
+                  color: "#ffd60a",
+                  backgroundColor: "#003049",
+                  textDecoration: "none",
+                },
+              }}
+            >
+              See My Resume
+            </Button>
+          </Box>
         </Box>
       </Box>
-
-
 
       {/* About Section */}
       <Box sx={{ marginY: 4 }}>

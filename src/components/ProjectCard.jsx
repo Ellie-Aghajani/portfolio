@@ -82,18 +82,22 @@ function ProjectCard({
           mt: { xs: 3, sm: 0 },
         }}
       >
-        <Box
-          component="img"
-          src={imageSrc}
-          alt={title}
-          sx={{
-            width: 200,
-            height: 200,
-            borderRadius: "8px",
-            objectFit: "cover",
-            boxShadow: 1,
-          }}
-        />
+        {imageSrc && (
+          <Box
+            component="img"
+            src={imageSrc}
+            alt={title}
+            sx={{
+              width: "100%",
+              maxWidth: 200,
+              height: "auto",
+              borderRadius: "8px",
+              objectFit: "contain",
+              boxShadow: 1,
+              display: "block",
+            }}
+          />
+        )}
 
         {deployedLink && (
           <Button

@@ -21,21 +21,25 @@ function About() {
         alignItems="center"
         sx={{ padding: 2, borderRadius: 2 }}
       >
-        <Typography variant="h6" sx={{ textAlign: "justify" , color: "#cad2c5"}}>
+        <Typography
+          variant="h6"
+          sx={{ textAlign: "justify", color: "#cad2c5" }}
+        >
           {" "}
-          Becoming a software engineer has been my dream ever since high school.
-          I chose math as my focus back then, as the first step toward my future
-          in tech. But life had other plans, and I found myself on a completely
-          different path—as a teacher. <br /> <br />
-          Fast forward to when I moved to Canada, everything changed. I saw this
-          as my chance to finally chase the dream I’d been holding onto for so
-          long. The first big step? Enrolling in the Lighthouse Labs Web
-          Development Bootcamp, where I rediscovered my passion for building and
-          creating. <br /> <br />
-          Now, I’m more excited than ever about my career in software
-          engineering. I’m always learning, growing, and pushing myself to be
-          better each day. This isn’t just a career for me—it’s the fulfillment
-          of a dream I never gave up on.{" "}
+          I have 3+ years of professional experience as a full-stack engineer,
+          including roles at Fiverr and North Arrow Research.
+          <br />
+          I've worked across the whole lifecycle of a product: designing APIs and
+          data models, building the
+          interfaces on top of them, and shipping and maintaining them in
+          production. Software engineering was my goal from the start.  <br /> I chose
+          math in high school with that in mind, but life took me into teaching
+          first, and I earned a Master's in Education before making the switch
+          into software.   <br /> These days I'm focused on backend and
+          cloud engineering, and on bringing LLMs into real products.  <br /> I’m
+          always learning, growing, and pushing myself to be better each day.
+          This isn’t just a career for me, it’s the fulfillment of a dream I
+          never gave up on.{" "}
         </Typography>
       </Stack>
       {/* <Typography
