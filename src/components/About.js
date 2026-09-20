@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Typography, Container, Stack, Button } from "@mui/material";
+import { Typography, Container, Stack} from "@mui/material";
 
 function About() {
   return (
