@@ -146,7 +146,7 @@ function Home() {
             </Button>
             <Button
               component="a"
-              href="https://flowcv.com/resume/j87t0vsftt"
+              href="https://flowcv.com/resume/8uwps8535o"
               sx={{
                 fontSize: { xs: "0.8rem", sm: "1rem", md: "1.2rem" },
                 textDecoration: "none",
