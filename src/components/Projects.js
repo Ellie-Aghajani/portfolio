@@ -65,7 +65,7 @@ function Projects() {
             "Deployment: Digital Ocean Server",
           ]}
           imageSrc="/munchie.png"
-          deployedLink="https://munchiemaster.online/"
+          deployedLink="https://munchiemaster.com/"
           githubLink="https://github.com/Ellie-Aghajani/munchieMaster"
         />
 
