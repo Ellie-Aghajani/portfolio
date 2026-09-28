@@ -56,7 +56,7 @@ function Projects() {
         {/* Munchie Master */}
         <ProjectCard
           title="Munchie Master"
-          description="Munchie Master is a full-stack web application that provides healthy and delicious recipes for toddler food. This project helps parents and caregivers find easy-to-make, nutritious meals that their toddlers will love."
+          description="Munchie Master is a full-stack web application that provides healthy and delicious recipes. This project helps users find easy-to-make, nutritious meals that they will love."
           techStack={[
             "Frontend: React, Material-UI (MUI)",
             "Backend: Node.js, Express.js",
