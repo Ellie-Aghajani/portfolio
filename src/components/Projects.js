@@ -23,10 +23,10 @@ function Projects() {
       </Typography>
 
       <Box sx={{ display: "flex", flexDirection: "column", gap: 2 }}>
-        {/* To-Do App (Electron + React / ASP.NET Core) */}
+        {/* Budget It First⁠ */}
         <ProjectCard
-          title="To-Do App (Electron + React / ASP.NET Core)"
-          description="A full-stack to-do application available as both a desktop app and a web app, built from a single shared React codebase. Users sign in with Firebase Authentication and manage their tasks through an ASP.NET Core API backed by Azure SQL Database. The desktop version is packaged with Electron, so the same interface runs in the browser and as a native app."
+          title="Budget It First⁠"
+          description="Full-stack web and desktop budgeting app where users set a monthly income and category budgets, plan purchases with estimated costs, and track actual spending. Designed the REST API and EF Core data model, with planned costs kept separate from an expense ledger. Built monthly report snapshots, a budget planner, server-side data ownership checks, and React Query state management."
           techStack={[
             "Frontend: React, TypeScript, Vite, MUI, Redux Toolkit, React Query, Electron",
             "Authentication: Firebase Authentication (Firebase Admin SDK on the server)",
@@ -34,9 +34,9 @@ function Projects() {
             "Database: Azure SQL Database",
             "Deployment: Web app on Vercel; API on Render",
           ]}
-          imageSrc={"/todos.png"}
-          deployedLink="https://todo-fullstack-electron.vercel.app"
-          githubLink="https://github.com/Ellie-Aghajani/todo-fullstack-electron"
+          imageSrc={"/budgetitfirst.png"}
+          deployedLink="https://budgetitfirst.com/"
+          githubLink="https://github.com/Ellie-Aghajani/BudgetItFirst"
         />
 
         {/* FalGenie */}
