@@ -26,12 +26,14 @@ function Projects() {
         {/* Budget It First⁠ */}
         <ProjectCard
           title="Budget It First⁠"
-          description="Full-stack web and desktop budgeting app where users set a monthly income and category budgets, plan purchases with estimated costs, and track actual spending. Designed the REST API and EF Core data model, with planned costs kept separate from an expense ledger. Built monthly report snapshots, a budget planner, server-side data ownership checks, and React Query state management."
+          description="Full-stack web and desktop budgeting app where users set a monthly income and category budgets, plan purchases with estimated costs, and track actual spending. Designed the REST API and EF Core data model, with planned costs kept separate from an expense ledger. Built monthly report snapshots, a budget planner, server-side data ownership checks, and React Query state management. Extracted over-budget alerting into a Node.js/TypeScript microservice that consumes events from RabbitMQ with idempotent processing and a dead-letter queue, stores notifications in MongoDB, and runs on Kubernetes with health probes, autoscaling, and a scheduled digest job. Added CI/CD with GitHub Actions to test, build, and publish container images."
           techStack={[
             "Frontend: React, TypeScript, Vite, MUI, Redux Toolkit, React Query, Electron",
             "Authentication: Firebase Authentication (Firebase Admin SDK on the server)",
             "Backend: ASP.NET Core, Entity Framework Core",
+            "Microservice: Node.js, TypeScript, RabbitMQ, MongoDB",
             "Database: Azure SQL Database",
+            "Infrastructure: Docker, Kubernetes, GitHub Actions",
             "Deployment: Web app on Vercel; API on Render",
           ]}
           imageSrc={"/budgetitfirst.png"}
